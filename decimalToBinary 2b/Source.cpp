@@ -1,21 +1,15 @@
-// C++ program to convert fractional decimal
-// to binary number
+
 #include<iostream>
-//#include<bits/stdc++.h>
 #include<random>
 #include<iomanip>
 using namespace std;
 
-// Function to convert decimal to binary upto
-// k-precision after decimal point
 string decimalToBinary(double num, int k_prec, string binary, double r)
 {
-	//double n = 72.25;
-	//cout << n << "\t\t";
-	//string binary = "";
+	
 	string remark = "";
 
-	// Fetch the integral part of decimal number
+	// Fetch the integer part of decimal number
 	int Integral = num;
 
 	// Fetch the fractional part decimal number
@@ -40,11 +34,9 @@ string decimalToBinary(double num, int k_prec, string binary, double r)
 		// Find next bit in fraction
 		//double r = 0;
 		fractional *= 2;
-		int fract_bit = fractional;
-		//double r = fractional - fract_bit;
+		int fract_bit = fractional;		
 		r = fractional;
-		//string remark;
-
+		
 		if (fract_bit == 1)
 		{
 			fractional -= fract_bit;
@@ -59,13 +51,7 @@ string decimalToBinary(double num, int k_prec, string binary, double r)
 
 
 		}
-		//cout << "R= " << r << endl;
-	/*	if (r == 1) {
-			return remark = "exact";
-		}
-		else {
-			return remark = "approximate";
-		} */
+	
 
 	}
 
@@ -77,12 +63,12 @@ string decimalToBinary(double num, int k_prec, string binary, double r)
 		remark = "    approximate\n";
 	}
 	//return binary;
-	cout <<"\t\t\t"<< binary << "\t\t";
+	cout << "\t\t\t" << binary << "\t\t";
 	return remark;
 
 }
 
-// Driver code
+
 int main()
 {
 	int val = 0;
@@ -113,7 +99,7 @@ int main()
 
 
 		cout << decimalToBinary(n, k, binary, r) << remark << endl;
-		
+
 		int val = 0;
 		cout << "enter 1 to convert decimal to binary 0 to exit\n";
 		cin >> val;
@@ -122,11 +108,11 @@ int main()
 		if (val != 1) {
 			break;
 		}
-		
-	}	
-	
-		system("pause");
-		int main();
-	
+
+	}
+
+	system("pause");
+	int main();
+
 	return 0;
 }

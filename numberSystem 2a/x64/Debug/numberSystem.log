@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Osoro\source\repos\numberSystem\Source.cpp(94,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Osoro\source\repos\numberSystem\Source.cpp(125): warning C4717: 'main': recursive on all control paths, function will cause runtime stack overflow
+  numberSystem.vcxproj -> C:\Users\Osoro\source\repos\numberSystem\x64\Debug\numberSystem.exe

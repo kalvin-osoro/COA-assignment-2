@@ -1,4 +1,0 @@
-﻿  Source.cpp
-C:\Users\Osoro\source\repos\decimalToBinary\Source.cpp(19,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\Osoro\source\repos\decimalToBinary\Source.cpp(43,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-  decimalToBinary.vcxproj -> C:\Users\Osoro\source\repos\decimalToBinary\Debug\decimalToBinary.exe

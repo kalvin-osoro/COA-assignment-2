@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Osoro\source\repos\convertion\Source.cpp(14,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Osoro\source\repos\convertion\Source.cpp(38,17): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  convertion.vcxproj -> C:\Users\Osoro\source\repos\convertion\Debug\convertion.exe
